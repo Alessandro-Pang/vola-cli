@@ -1,0 +1,29 @@
+{
+  "name": "vola-cli",
+  "version": "0.1.0",
+  "description": "用于搭建 vite + vue3 项目的脚手架工具",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alessandro-Pang/vola-cli.git"
+  },
+  "keywords": [
+    "vite",
+    "vue3",
+    "cli",
+    "typescript"
+  ],
+  "author": "ziYang <pcy1314@163.com> (https://gitee.com/Alessandro-pang)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Alessandro-Pang/vola-cli/issues"
+  },
+  "homepage": "https://github.com/Alessandro-Pang/vola-cli#readme",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "commander": "^9.4.0"
+  }
+}
