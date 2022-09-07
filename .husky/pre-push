@@ -1,0 +1,14 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+###
+ # @Author: zi.yang
+ # @Date: 2022-08-15 08:31:15
+ # @LastEditors: zi.yang
+ # @LastEditTime: 2022-08-19 07:52:03
+ # @Description: commit change log generator
+ # @FilePath: \cy-cli\.husky\commit-msg
+###
+
+echo "生成 Commit Change log ..."
+npx conventional-changelog -p angular -i CHANGELOG.md -s -r 0

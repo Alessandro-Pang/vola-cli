@@ -1,0 +1,15 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+###
+ # @Author: zi.yang
+ # @Date: 2022-08-15 08:31:15
+ # @LastEditors: zi.yang
+ # @LastEditTime: 2022-08-21 16:56:50
+ # @Description: commit msg
+ # @FilePath: \cy-cli\.husky\commit-msg
+###
+
+echo "执行 git commit 检查 ..."
+npx --no -- commitlint --edit "${1}"
+echo "git commit 检查通过!"

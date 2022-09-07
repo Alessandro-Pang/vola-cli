@@ -1,0 +1,15 @@
+#!/bin/sh
+. "$(dirname "$0")/_/husky.sh"
+
+###
+ # @Author: zi.yang
+ # @Date: 2022-08-15 08:31:15
+ # @LastEditors: zi.yang
+ # @LastEditTime: 2022-08-19 07:52:17
+ # @Description: commit lint
+ # @FilePath: \cy-cli\.husky\pre-commit
+###
+
+echo "执行 缓存区代码检查 ...."
+npx lint-staged
+echo "代码检查通过！"
