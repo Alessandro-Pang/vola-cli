@@ -2,7 +2,7 @@
  * @Author: zi.yang
  * @Date: 2022-09-01 07:43:51
  * @LastEditors: zi.yang
- * @LastEditTime: 2022-09-06 07:36:52
+ * @LastEditTime: 2022-09-08 08:27:22
  * @Description:
  * @FilePath: \vola-cli\.eslintrc.js
  */
@@ -21,11 +21,7 @@ module.exports = {
     es2021: true,
     node: true,
   },
-  extends: [
-    "plugin:import/recommended",
-    "airbnb-base",
-    "plugin:prettier/recommended",
-  ],
+  extends: ["plugin:import/recommended", "airbnb-base", "plugin:prettier/recommended"],
   // overrides typescript
   overrides: [
     {
