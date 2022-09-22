@@ -1,6 +1,6 @@
 {
   "name": "vola-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "用于搭建 vite + vue3 项目的脚手架工具",
   "main": "dist/lib/library.js",
   "bin": {
@@ -12,7 +12,8 @@
     "dev": "npm run clean && tsc -w --removeComments false",
     "vola": "node ./bin/vola",
     "prepublish": "npm run clean && tsc --sourceMap false",
-    "commit": "git add . && git-cz && git push origin"
+    "commit": "git add . && git-cz && git push origin",
+    "release": "standard-version"
   },
   "repository": {
     "type": "git",
@@ -60,7 +61,7 @@
     "lint-staged": "13.0.3",
     "prettier": "2.7.1",
     "rimraf": "3.0.2",
-    "standard-version": "9.5.0",
+    "standard-version": "9.3.2",
     "typescript": "*"
   },
   "lint-staged": {
