@@ -1,6 +1,6 @@
 {
   "name": "vola-cli",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "用于搭建 vite + vue3 项目的脚手架工具",
   "main": "dist/lib/library.js",
   "bin": {
