@@ -1,0 +1,15 @@
+# Dependency directories
+node\_modules
+*-lock.json
+
+# source code
+lib
+.eslintrc
+.eslintignore
+.prettierrc
+.prettierignore
+.gitignore
+.commitlintrc
+.cz-config
+.editorconfig
+tsconfig.json

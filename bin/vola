@@ -1,0 +1,10 @@
+#! /usr/bin/env node
+/*
+ * @Author: zi.yang
+ * @Date: 2022-09-01 08:30:12
+ * @LastEditors: zi.yang
+ * @LastEditTime: 2022-09-22 22:24:33
+ * @Description:
+ * @FilePath: /vola-cli/bin/vola
+ */
+require('../dist/lib/main');

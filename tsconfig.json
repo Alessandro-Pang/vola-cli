@@ -2,12 +2,14 @@
   "compilerOptions": {
     "module": "commonjs",
     "esModuleInterop": true,
+    "alwaysStrict": true,
     "allowSyntheticDefaultImports": true,
-    "target": "es6",
+    "target": "ES6",
     "noImplicitAny": true,
     "moduleResolution": "node",
+    "removeComments": true,
     "sourceMap": true,
-    "outDir": "dist",
+    "outDir": "./dist",
     "baseUrl": ".",
     "paths": {
       "*": [
@@ -23,8 +25,8 @@
     "dist"
   ],
   "include": [
-    "src/**/*",
-    "types/**/*",
-    "main.ts"
+    "bin/**/*",
+    "lib/**/*",
+    "types/**/*"
   ]
 }
